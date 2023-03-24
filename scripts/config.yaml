@@ -1,0 +1,17 @@
+window_size: 900 # for simulation
+
+map:
+  width: 900
+  height: 900
+  rows: 30
+  cols: 30
+
+start_point: 0,0
+
+order_optimization_technique: simulated_annealing # optimization technique to choose the best drop-off points' order
+
+path_optimization_technique: BFS # optimization technique to choose the shortest path between 2 stations
+
+num_of_stations: 11 # number of dropoff points
+
+
